@@ -15,7 +15,7 @@ import Salazar from "../../../Imgs/Personagens/Salazar.jpg";
 
 const Personagens = () => {
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.title}>
         <h1>Os 10 melhores personagens</h1>
       </div>
