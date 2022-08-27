@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  height: 85vh;
+  padding-bottom: 55px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  height: max-content;
+  padding-top: 25px;
+  background-color: #020614;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.leftSideImage {
+  width: 50%;
+  height: 100%;
+  padding: 18px;
+}
+
+.leftSideImage img {
+  border-radius: 15px;
+  width: 100%;
+  height: 85%;
+  border: 2px solid #083492;
+}
+
+.rightSideWrite {
+  width: 50%;
+  height: 100%;
+  font-family: "Shadows Into Light", cursive;
+  color: #fbfbfb;
+  padding-right: 25px;
+  padding-top: 18px;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.rightSideWrite a {
+  text-decoration: none;
+  color: tomato;
+}
+.rightSideWrite a:hover {
+  text-decoration: underline;
+}
+/* ============================================================================================= */
+
+@media screen and (max-width: 1096px) {
+  .section {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section {
+    flex-direction: column;
+  }
+  .leftSideImage {
+    width: 100%;
+  }
+  .rightSideWrite {
+    width: 100%;
+    padding-left: 20px;
+  }
+}

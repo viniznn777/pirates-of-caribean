@@ -1,0 +1,23 @@
+section {
+  width: 100%;
+  height: 70vh;
+  background-color: #020614;
+}
+
+.swiper_wrapper {
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #000d85;
+  overflow: hidden;
+}
+
+.Slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.Slider img:hover {
+  transform: scale(1.02);
+}

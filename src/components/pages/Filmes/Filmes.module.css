@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.sectionConology {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 35px;
+}
+
+.containerFilme {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+}
+
+.containerFilme img {
+  width: 200px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.containerFilme p {
+  color: #fbfbfb;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  height: max-content;
+  padding-top: 25px;
+  background-color: #020614;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+  padding-bottom: 50px;
+}

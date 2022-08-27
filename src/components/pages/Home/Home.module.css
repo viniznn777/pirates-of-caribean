@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.ondeAssitir {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: #fbfbfb;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  padding-top: 25px;
+  text-transform: uppercase;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.LogoOndeAssitir {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 65px;
+}
+.LogoOndeAssitir img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+/* ==================================================================================== */
+
+.curiosidades {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  padding-bottom: 50px;
+}
+
+.containerCuriosidades {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+.leftSideCuriosidades {
+  width: 50%;
+  height: 100%;
+  padding-left: 15px;
+}
+.rightSideCuriosidades {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 55px;
+  gap: 35px;
+}
+
+.rightSideCuriosidades h1 {
+  font-size: 2.2rem;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+}
+.rightSideCuriosidades p {
+  font-size: 1.3rem;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.rightSideCuriosidades a {
+  width: max-content;
+}
+
+.rightSideCuriosidades button {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #3b66e6;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.rightSideCuriosidades button:hover {
+  background-color: #2452db;
+}
+
+.containerImageCuriosidades {
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+}
+.containerImageCuriosidades img {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #365ac4;
+  transition: all 0.5s;
+}
+
+.containerImageCuriosidades img:hover {
+  transform: scale(1.1);
+}
+/* ====== Reverse Curiosity ========================================================== */
+
+.containerCuriosidadesReverse {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rightSideCuriosidadesReverse {
+  width: 50%;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.leftSideCuriosidadesReverse {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+  padding-right: 15px;
+  gap: 35px;
+}
+
+.leftSideCuriosidadesReverse h1 {
+  font-size: 2.2rem;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+}
+.leftSideCuriosidadesReverse p {
+  font-size: 1.3rem;
+  color: #fbfbfb;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.leftSideCuriosidadesReverse a {
+  width: max-content;
+}
+
+.leftSideCuriosidadesReverse button {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #3b66e6;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.leftSideCuriosidadesReverse button:hover {
+  background-color: #2452db;
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    height: 100%;
+  }
+  .LogoOndeAssitir {
+    flex-direction: column;
+    height: 100%;
+    gap: 70px;
+    padding-bottom: 80px;
+  }
+  .containerCuriosidades {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftSideCuriosidades {
+    width: 70%;
+    padding: 15px;
+  }
+  .containerImageCuriosidades {
+    width: 100%;
+    height: 100%;
+  }
+  .rightSideCuriosidades {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+  }
+  /* ========================= */
+
+  .leftSideCuriosidadesReverse {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 15px;
+    align-items: center;
+  }
+  .containerCuriosidadesReverse {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightSideCuriosidadesReverse {
+    width: 70%;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .LogoOndeAssitir img {
+    width: 150px;
+    height: 150px;
+  }
+}
